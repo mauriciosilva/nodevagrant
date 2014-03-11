@@ -1,4 +1,4 @@
-# node_environment cookbook
+## a node env vagrant setup 
 
 simple node development environment vagrant setup
 
@@ -19,8 +19,8 @@ check [https://github.com/mauriciosilva/devbox](https://github.com/mauriciosilva
 ### setup
 
 * make sure you have ruby 1.9+ installed.
-* install vagrant [http://vagrantup.com](http://vagrantup.com)
-
+* install virtual box from [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
+* install vagrant from [http://vagrantup.com](http://vagrantup.com)
 
 execute the following:
 
