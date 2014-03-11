@@ -18,7 +18,7 @@ check [https://github.com/mauriciosilva/devbox](https://github.com/mauriciosilva
 
 ### setup
 
-* make sure you have ruby 1.9+ installed.
+* make sure you have ruby 1.9+ installed. (if you're installing ruby make sure to `gem install bundler`).
 * install virtual box from [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
 * install vagrant from [http://vagrantup.com](http://vagrantup.com)
 
@@ -30,9 +30,8 @@ execute the following:
 
 
 ### starting vm
-
+`bundle install`
 `berks install`
-
 `vagrant up`
 
 as soon as box comes up
