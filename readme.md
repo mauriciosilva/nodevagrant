@@ -25,6 +25,7 @@ check [https://github.com/mauriciosilva/devbox](https://github.com/mauriciosilva
 execute the following:
 
 `$ vagrant plugin install vagrant-berkshelf`
+
 `$ vagrant plugin install vagrant-omnibus`
 
 
