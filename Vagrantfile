@@ -22,6 +22,9 @@ Vagrant.configure("2") do |config|
 
   config.berkshelf.enabled = true
 
+#  config.ssh.private_key_path = "~/.ssh/id_rsa"
+#  config.ssh.forward_agent = true
+
   config.vm.provider :virtualbox do |vb|
    vb.customize ["modifyvm", :id, "--memory", "1024", "--cpus", "2"]
   end
@@ -42,6 +45,7 @@ Vagrant.configure("2") do |config|
     }
     chef.run_list = [
         "recipe[devbox::nodejs]",
+        "recipe[devbox::nvm]",
         "recipe[devbox::vim]"
     ]
   end
