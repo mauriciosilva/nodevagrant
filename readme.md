@@ -1,4 +1,4 @@
-## a node env vagrant setup 
+## a vagrant node development setup 
 
 simple node development environment vagrant setup
 
