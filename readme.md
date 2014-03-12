@@ -31,7 +31,9 @@ execute the following:
 
 ### starting vm
 `bundle install`
+
 `berks install`
+
 `vagrant up`
 
 as soon as box comes up
